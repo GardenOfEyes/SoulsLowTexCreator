@@ -6,8 +6,7 @@ This tool currently supports the following file formats:
 - *.texbnd.dcx *(Character texture files, you at least need to have the _h version, and it will use that to create the _l version)*
 - *.tpf.dcx *(For Elden Ring, used mainly for assets' AET texture files)*
 
- What the tool does, is it reads those files, automatically halves the size of the textures (since the textures are supposed to be lower quality), and repacks them into the new _l files.
- 
+What the tool does, is you drag a folder into it, it reads the files with the aforementioned formats, automatically halves the size of the textures inside the files (since the textures are supposed to be lower quality), and repacks them into the new _l files while keeping their original DDS formats and properties.  
 
 # Instructions
 1) Download the latest release: https://github.com/GardenOfEyes/SoulsLowTexCreator/releases/tag/release
@@ -18,3 +17,5 @@ This tool currently supports the following file formats:
 
 # Credits
 - Everyone who contributed to making SoulsFormats: https://github.com/soulsmods/SoulsFormatsNEXT
+- Texdiag: https://github.com/microsoft/DirectXTex/wiki/texdiag
+- Texconv: https://github.com/microsoft/DirectXTex/wiki/Texconv
